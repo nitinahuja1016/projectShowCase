@@ -1,5 +1,5 @@
 # projectShowCase
-It contains spring based java project to organise your products.
+Verifying file/It contains spring based java project to organise your products.
 
 The project is about how we can organize our products in a systematic manner for easy retrival.
 Upscaling this project, it can be used by medical stores to find out where any particular medicine is kept or what all medicinies are kept in any particular shelf or drawer.
