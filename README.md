@@ -1,13 +1,12 @@
-Hello and welcome to my repository. I thank you for your valuable time that you have put to come here. I'll make sure its worth it.
+Reservation system is a project to manage hotel bookings.
+It uses JDBC to connect to its data in a postgres database. It is capable of performing all the CRUD operations on DB through its service class.
 
-Cutting to the chase, you will find my different projects in each branch separated from this main branch.
+The project contains following 3 classes:
 
-So far, there are two projects:
-1. Product Organiser: It uses spring boot for dependency injection and IoC. Connects to postgres for database using JPA repositories and is based on MVC concepts.
+1. Main:           Containing the main method, execution begins from here. User selects the operation to be performed in this console based application.
    
-2. Hotel Reservation System: It uses JDBC to connect to postgres and performs CRUD operations on the database with its service class.
+2. DbConnection:   Connection to DB using JDBC is establised through this database class which returns the connection object.
 
-I hope you enjoy reviewing it as much as I did while bugging it.
+3. Serive class:   Class responsible for perfoming the actions as requested in the main class.
 
-Hope to see you on the other side.
-Thank you.
+Upscaling this project, ORM can be used where a relation for table and for guest is managed separately and an additional relation store all the old bookings for record keeping. It will also ensure normalization of the database.
